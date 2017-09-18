@@ -1,4 +1,4 @@
-#making a python program
+print('Grade Central - A grading book report')
 
 import statistics
 
@@ -28,7 +28,7 @@ def studentAVG():
     for eachStudent in studentDict:
         gradeList = studentDict[eachStudent]
         avgGrade = statistics.mean(gradeList)
-            print(eachStudent,'has an average grade of', avgGrade)
+        print(eachStudent,'has an average grade of', avgGrade)
             
 def main():
     print("""
